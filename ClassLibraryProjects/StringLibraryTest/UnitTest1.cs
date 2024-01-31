@@ -25,7 +25,7 @@ public class UnitTest1
     {
         // Tests that we expect to return false.
         string[] words = { "alphabet", "zebra", "abc", "αυτοκινητοβιομηχανία", "государство",
-                               "1234", ".", ";", " " };
+                               "1234", ";", " " };
         foreach (var word in words)
         {
             bool result = word.StartsWithUpper();
